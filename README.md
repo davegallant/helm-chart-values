@@ -1,6 +1,6 @@
-# helm-charts
+# helm-chart-values
 
-Helm charts I've customized and deployed.
+Helm chart values I've customized and deployed.
 
 
 ## loki
