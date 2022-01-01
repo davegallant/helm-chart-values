@@ -1,6 +1,6 @@
 # helm-chart-values
 
-Helm chart values I've customized and deployed.
+Helm charts that I've deployed.
 
 ## loki-stack
 
