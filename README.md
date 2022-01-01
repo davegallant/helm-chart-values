@@ -25,3 +25,10 @@ helm install metallb bitnami/metallb -n metallb --create-namespace
 helm repo add itzg https://itzg.github.io/minecraft-server-charts/
 helm install minecraft itzg/minecraft -n minecraft --create-namespace --values minecraft-values.yml
 ```
+
+## gitea
+
+``sh
+helm repo add gitea-charts https://dl.gitea.io/charts/
+helm install gitea gitea-charts/gitea
+``
