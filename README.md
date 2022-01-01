@@ -30,5 +30,5 @@ helm install minecraft itzg/minecraft -n minecraft --create-namespace --values m
 
 ```sh
 helm repo add gitea-charts https://dl.gitea.io/charts/
-helm install gitea gitea-charts/gitea
+helm install gitea gitea-charts/gitea --create-namespace 
 ```
